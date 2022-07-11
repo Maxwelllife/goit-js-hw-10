@@ -24,7 +24,6 @@ function renderMarkupList(data) {
 }
 
 function renderMarkupOneCountry(data) {
-  console.log('1: ', data);
   const language = Object.values(data.languages).join(', ');
   const markupOneCountry = `
     <div class = "image-wrap">
