@@ -1,3 +1,4 @@
+import { Notify } from 'notiflix/build/notiflix-notify-aio';
 export function renderMarkup(params) {
   if (params.length > 10) {
     Notify.info('Too many matches found. Please enter a more specific name.');
