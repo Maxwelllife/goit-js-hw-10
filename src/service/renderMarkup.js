@@ -1,3 +1,4 @@
+import refs from './refs';
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
 export function renderMarkup(params) {
   if (params.length > 10) {
